@@ -77,9 +77,27 @@ header {
     transition: all 0.3s ease;
 }
 
-section {
-    padding: 4rem 0;
+/* Section Gaps */
+
+#home {
+    padding: 2rem 0;
 }
+
+#about {
+    padding:4rem 0;
+}
+
+#testimonial {
+    padding:2rem 0;
+}
+
+#contact {
+    padding:3rem;
+}
+
+/* ----------------- */
+
+
 
 h1, h2 {
     margin-bottom: 1rem;
@@ -129,7 +147,7 @@ h1, h2 {
 }
 
 .about-grey-box {
-    max-width:720px;
+    max-width:620px;
 }
 
 .testimonial-container {
@@ -325,4 +343,22 @@ About section */
     .description {
         font-size: 1.125rem;
     }
+}
+
+/* products */
+
+.flex-container-product {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+    gap:2em;
+}
+
+.product-box {
+    width:300px;
+    height:200px;
+    background-color:#ccc;
 }
