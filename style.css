@@ -171,12 +171,16 @@ h1, h2 {
 }
 
 .contact-container {
-    /* Add specific styles for the contact container */
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
+    width:320px;
 }
 
 .contact-form input,
