@@ -150,8 +150,14 @@ h1, h2 {
     max-width:620px;
 }
 
-.testimonial-container {
-    
+
+
+.testimonial-flex-box {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:2em;
 }
 
 .testimonial-box {
@@ -159,6 +165,9 @@ h1, h2 {
     padding: 2rem;
     margin-bottom: 1rem;
     border-radius: 5px;
+
+    max-width:420px;
+
 }
 
 .contact-container {
