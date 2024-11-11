@@ -197,6 +197,10 @@ h1, h2 {
     cursor: pointer;
 }
 
+footer {
+    width:100vw;
+}
+
 .footer-container {
     background-color: #333;
     color: #fff;
