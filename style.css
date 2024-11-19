@@ -166,6 +166,7 @@ h1, h2 {
 
 .about-grey-box {
     max-width:620px;
+    height:420px;
 }
 
 
@@ -383,31 +384,10 @@ About section */
     }
 }
 
-/* products */
-
-.flex-container-product {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:center;
-
-
-    gap:2em;
-}
-
 @media(min-width:1335px){
-    .flex-container-product {
-        justify-content: space-between;
-
-    }
 
     .testimonial-flex-box {
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
 
-.product-box {
-    width:300px;
-    height:200px;
-    background-color:#ccc;
-}
