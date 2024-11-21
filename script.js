@@ -10,6 +10,7 @@ const prevButton = document.querySelector('.carousel-control.prev');
 const nextButton = document.querySelector('.carousel-control.next');
 const aboutTextBox = document.querySelector('.carousel-text-box')
 
+
 const aboutContent = [
     {
         title: "Welcome to Our Platform",
@@ -83,7 +84,7 @@ function updateCarousel(index) {
         
         aboutTextBox.classList.add('active');
     }, 400); 
-    
+
     currentIndex = index;
 }
 
