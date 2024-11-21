@@ -8,6 +8,7 @@ const carouselIndicators = document.querySelectorAll('.carousel-indicator');
 const carousel = document.querySelector('.carousel');
 const prevButton = document.querySelector('.carousel-control.prev');
 const nextButton = document.querySelector('.carousel-control.next');
+const aboutTextBox = document.querySelector('.carousel-text-box')
 
 const aboutContent = [
     {
@@ -69,8 +70,20 @@ function updateCarousel(index) {
     carouselIndicators.forEach((indicator, i) => {
         indicator.classList.toggle('active', i === index);
     });
-    aboutTitle.textContent = aboutContent[index].title;
-    aboutDescription.textContent = aboutContent[index].description;
+    aboutTextBox.classList.remove('active');
+
+
+    setTimeout(() => {
+        aboutTitle.textContent = aboutContent[index].title;
+        aboutDescription.textContent = aboutContent[index].description;
+
+      
+        void aboutTextBox.offsetWidth;
+
+        
+        aboutTextBox.classList.add('active');
+    }, 400); 
+    
     currentIndex = index;
 }
 
