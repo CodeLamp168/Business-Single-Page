@@ -444,6 +444,10 @@ footer {
 }
 
 @media (min-width: 769px) {
+
+    .home-grey-box {
+        border-radius:10px;
+    }
     .desktop-carousel-controls {
         display: flex;
         gap: 2em;
