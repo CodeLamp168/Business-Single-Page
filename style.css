@@ -314,6 +314,9 @@ header {
 }
 
 .testimonial-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--secondary-bg);
     padding: 2rem;
     margin-bottom: 1rem;
@@ -326,6 +329,12 @@ header {
 .testimonial-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-person {
+    padding-top:1em;
+    font-size:18px;
+    font-weight:600;
 }
 
 /* Contact Section */
